@@ -34,6 +34,24 @@ a {
   padding-left: 20px;
   
 }
+#proImg {
+    width: 200px;
+    height: 200px;
+}
+
+#pass {
+    font-size: 20px;
+    color :black ;
+    background-color: lightgreen;   
+    padding: 10px; 
+}
+
+#fail {
+    font-size: 20px;
+    color :black ;
+    background-color: darkred;   
+    padding: 10px; 
+}
 
 footer{
     background-color : darkblue;
