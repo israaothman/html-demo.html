@@ -4,7 +4,7 @@ var message ;
 var txt;
 age = prompt("Please Enter Your Age ! ")
 var msg;
-
+console.log(age);
 function permission(age){
 
 
@@ -22,7 +22,7 @@ if (age >= 18 && age < 30 ){
 
 }
 else {
-    message = "Sorry, you can't rejister "
+    message = "Sorry, your age does't allow you to register"
     msg= window.alert(message);
 }
 
