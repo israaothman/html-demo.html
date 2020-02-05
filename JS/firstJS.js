@@ -24,6 +24,8 @@ if (age >= 18 && age < 30 ){
 else {
     message = "Sorry, your age does't allow you to register"
     msg= window.alert(message);
+      window.open("https://israaothman.github.io/html-demo.html/HomePage" , "_self");
+    
 }
 
 return msg;
