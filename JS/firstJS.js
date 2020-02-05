@@ -2,12 +2,15 @@
 var age ; 
 var message ; 
 var txt;
-
 age = prompt("Please Enter Your Age ! ")
+var msg;
+
+function permission(age){
+
 
 if (age >= 18 && age < 30 ){
     message = "you are allow to rejister "
-    window.alert(message);
+    msg= window.alert(message);
   var C = confirm("Do you want to continue ? ");
   if (C == true) {
     txt = "OK Go ahead and fill out the form";
@@ -15,10 +18,16 @@ if (age >= 18 && age < 30 ){
     txt = "Ok No problem Thank you";
   }
   
-  window.alert(txt);
+  msg= window.alert(txt);
+
 }
 else {
     message = "Sorry, you can't rejister "
-    window.alert(message);
+    msg= window.alert(message);
 }
+
+return msg;
+}
+
+permission(age);
 
