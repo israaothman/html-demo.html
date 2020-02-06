@@ -2,7 +2,7 @@
 var age ; 
 var message ; 
 var txt;
-age = prompt("Please Enter Your Age ! ")
+age = prompt("Please Enter Your Age ! valid age to register(18-30) ")
 var msg;
 console.log(age);
 function permission(age){
